@@ -2,6 +2,7 @@
 This function is testing multiple implementation of the function
 """
 def do_twice(func, arg):
+    # implement function 'func' 2 times
     func(arg)
     func(arg)
     """Runs a function twice.
@@ -12,6 +13,7 @@ def do_twice(func, arg):
 
 
 def print_twice(arg):
+    # implement print function 2 times
     print(arg)
     print(arg)
     """Prints the argument twice.
@@ -21,6 +23,7 @@ def print_twice(arg):
 
 
 def do_four(func, arg):
+    # implement function 'func' 4 times
     func(arg)
     func(arg)
     func(arg)
